@@ -7,8 +7,8 @@ COCO dataset 2017
 https://cocodataset.org/#download
 
 ### Task
-○ Get the model and use LiteRT (formerly TensorFlow Lite) to quantize the model
-○ Choose the following three configurations (weights only):  
+- Get the model and use LiteRT (formerly TensorFlow Lite) to quantize the model
+- Choose the following three configurations (weights only):  
   ■ float32  
   ■ float 16  
   ■ int8  
@@ -16,13 +16,13 @@ https://cocodataset.org/#download
 ### Backbone Model
 Mask R-CNN with Inception ResNet V2 backbone
 https://www.kaggle.com/models/tensorflow/mask-rcnn-inception-resnet-v2
-○ Overview
+- Overview
     Mask R-CNN with Inception Resnet v2 (using regular Convolutions instead of Dilated ones). Trained on COCO 2017 dataset (Synchronous SGD across 8 GPUs) with batch size 16 (trained on images of 1024x1024 resolution).
 
 ### Result
 ![objectdetection](https://github.com/user-attachments/assets/38cc1853-a7fb-4bd9-ac38-4577fdd77803)
-○ Significant Enhancement on Model Size and Inference Time for all configurations
-○ Poor mean Average Precision
+- Significant Enhancement on Model Size and Inference Time for all configurations
+- Poor mean Average Precision
 
 ### Additional Result
 <img width="1094" alt="스크린샷 2025-01-16 오전 2 21 11" src="https://github.com/user-attachments/assets/d7fb6bea-9cf0-463b-a8eb-10fa2f2a3797" />
