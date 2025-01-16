@@ -8,10 +8,10 @@ https://cocodataset.org/#download
 
 ### Task
 ○ Get the model and use LiteRT (formerly TensorFlow Lite) to quantize the model
-○ Choose the following three configurations (weights only):
-  ■ float32
-  ■ float 16
-  ■ int8
+○ Choose the following three configurations (weights only):  
+  ■ float32  
+  ■ float 16  
+  ■ int8  
 
 ### Backbone Model
 Mask R-CNN with Inception ResNet V2 backbone
